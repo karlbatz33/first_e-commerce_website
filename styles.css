@@ -4,7 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-}
+} /*Reset everything*/
 
 html{
     scroll-behavior: smooth;
@@ -39,6 +39,7 @@ a:hover{
     text-decoration: underline;
 }
 
+/*We want container nav to cap the width*/
 .nav__container{
     width: 100%;
     max-width: 1200px;
@@ -78,14 +79,19 @@ li{
     text-decoration: underline;
 }
 
+/*To make contact button different.*/
 .nav__link--primary{
     border: 2px solid #7342d6;
     border-radius: 4px;
 }
 
+/*This CSS needs to be after the hover, so the underline works for the .nav__link:hover*/
 .nav__link--primary:hover{
     text-decoration: none;
 }
+
+
+
 
 .btn__menu{
     border-color: transparent;
